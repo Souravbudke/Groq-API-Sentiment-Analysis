@@ -2,11 +2,13 @@
 
 This project uses the Groq API to analyze the sentiment of reviews provided in an uploaded file (CSV or Excel format). The Flask application reads the file, processes the reviews, and returns the sentiment analysis results.
 
-## Prerequisites
+## Requirements
 
-- Python 3.x
-- pip (Python package installer)
-
+- Python 3.7 or higher
+- Flask
+- Pandas
+- Groq
+- python-dotenv
 ## Installation
 
 1. Clone the repository:
